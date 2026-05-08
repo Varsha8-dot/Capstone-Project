@@ -1,5 +1,4 @@
-import dotenv from 'dotenv'
-dotenv.config()
+import 'dotenv/config'
 import exp from 'express'
 import { connect } from 'mongoose'
 import { userApp } from './APIs/UserAPI.js'
